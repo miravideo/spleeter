@@ -1,0 +1,1 @@
+docker run --gpus all -v $(pwd)/output:/output -v $(pwd)/audio_example.mp3:/input/audio_example.mp3 mirav.tencentcloudcr.com/mira/spleeter:conda-gpu-2stems separate -o /output -i /input/audio_example.mp3
